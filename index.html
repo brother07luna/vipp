@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏆 Desafío VIP Floky</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <!-- Fondo de Video MP4 -->
+  <video autoplay muted loop id="background-video">
+    <source src="gifs/3.mp4" type="video/mp4" id="video-source">
+    Your browser does not support HTML5 video.
+  </video>
+  <div id="overlay"></div>
+  <!-- Contenido -->
+  <div class="container">
+    <header>
+      <div class="logo">🏆 DESAFÍO VIP FLOKY</div>
+      <div class="premio">🎁 PREMIO: 30.000 FICHAS GRATIS</div>
+      
+      <div class="fechas">
+        <span id="fechaInicio">--/--/----</span>
+        <span class="separador">•</span>
+        <span id="fechaFinMostrar">--/--/----</span>
+      </div>
+
+      <div class="contador">
+        <div class="contadorTitulo">FINALIZA EN</div>
+        <div id="countdown">00d 00h 00m 00s</div>
+      </div>
+    </header>
+
+    <section class="rankingBox">
+      <div class="tituloRanking">🏅 Ranking VIP</div>
+      <div id="ranking">
+        <!-- Carga automáticamente desde script.js -->
+      </div>
+    </section>
+
+    <section class="actualizacion">
+      <div>Última actualización</div>
+      <strong id="ultimaActualizacion">Cargando...</strong>
+    </section>
+
+    <section class="reglas">
+      <h2>REGLAS</h2>
+      <ul>
+        <li>Solo participan usuarios invitados.</li>
+        <li>Gana quien más fichas cargue durante el periodo.</li>
+        <li>El ranking se actualiza periódicamente.</li>
+        <li>Solo el 1° puesto obtiene las 30.000 fichas.</li>
+        <li>El premio se acredita al finalizar el torneo.</li>
+      </ul>
+    </section>
+
+    <footer>Torneo Floky VIP © 2026</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

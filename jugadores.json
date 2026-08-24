@@ -1,0 +1,33 @@
+{
+  "_comentario_1": "--- CONFIGURACIÓN GENERAL DEL TORNEO ---",
+  "fechaInicio": "01/08/2026",
+  "fechaFin": "2026-08-07T23:59:59",
+  "ultimaActualizacion": "01/08/2026 00:00",
+  
+  "_comentario_2": "--- RUTA DEL VIDEO DE FONDO (gifs/1.mp4, gifs/2.mp4, etc.) ---",
+  "videoFondo": "gifs/2.mp4",
+  
+  "_comentario_3": "--- LISTA DE 20 JUGADORES VIP (Modifica los apodos y pon cargas en 0 al iniciar) ---",
+  "jugadores": [
+    { "usuario": "VIP-Jugador01", "cargas": 0 },
+    { "usuario": "VIP-Jugador02", "cargas": 0 },
+    { "usuario": "VIP-Jugador03", "cargas": 0 },
+    { "usuario": "VIP-Jugador04", "cargas": 0 },
+    { "usuario": "VIP-Jugador05", "cargas": 0 },
+    { "usuario": "VIP-Jugador06", "cargas": 0 },
+    { "usuario": "VIP-Jugador07", "cargas": 0 },
+    { "usuario": "VIP-Jugador08", "cargas": 0 },
+    { "usuario": "VIP-Jugador09", "cargas": 0 },
+    { "usuario": "VIP-Jugador10", "cargas": 0 },
+    { "usuario": "VIP-Jugador11", "cargas": 0 },
+    { "usuario": "VIP-Jugador12", "cargas": 0 },
+    { "usuario": "VIP-Jugador13", "cargas": 0 },
+    { "usuario": "VIP-Jugador14", "cargas": 0 },
+    { "usuario": "VIP-Jugador15", "cargas": 0 },
+    { "usuario": "VIP-Jugador16", "cargas": 0 },
+    { "usuario": "VIP-Jugador17", "cargas": 0 },
+    { "usuario": "VIP-Jugador18", "cargas": 0 },
+    { "usuario": "VIP-Jugador19", "cargas": 0 },
+    { "usuario": "VIP-Jugador20", "cargas": 0 }
+  ]
+}

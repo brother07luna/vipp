@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  background-color: #0d1117;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px 10px;
+}
+
+/* Fondo GIF con Overlay Oscuro */
+/* Fondo de Video MP4 full screen */
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -2;
+  object-fit: auto; /* Esto asegura que el video cubra todo sin deformarse */
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(13, 17, 23, 0.85); /* Fondo oscuro transparente para leer bien */
+  backdrop-filter: blur(4px);
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+header {
+  background: linear-gradient(145deg, #161b22, #21262d);
+  border: 2px solid #ffd700;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.25);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffd700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.premio {
+  margin-top: 10px;
+  background: #e53e3e;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.fechas {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #a0aec0;
+}
+
+.contador {
+  margin-top: 15px;
+  background: #0d1117;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #30363d;
+}
+
+.contadorTitulo {
+  font-size: 0.75rem;
+  color: #e2e8f0;
+  letter-spacing: 1px;
+}
+
+#countdown {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #68d391;
+}
+
+.rankingBox {
+  background: #161b22;
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid #30363d;
+}
+
+.tituloRanking {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffd700;
+}
+
+.item-jugador {
+  display: flex;
+  align-items: center;
+  padding: 12px 10px;
+  border-bottom: 1px solid #21262d;
+}
+
+.item-jugador:last-child {
+  border-bottom: none;
+}
+
+.pos {
+  width: 35px;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.top-1 .pos { color: #ffd700; font-size: 1.4rem; }
+.top-2 .pos { color: #c0c0c0; font-size: 1.2rem; }
+.top-3 .pos { color: #cd7f32; font-size: 1.2rem; }
+
+.nombre {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.cargas {
+  font-weight: 700;
+  color: #48bb78;
+}
+
+.actualizacion {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #cbd5e0;
+  background: #161b22;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.reglas {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #30363d;
+}
+
+.reglas h2 {
+  font-size: 1rem;
+  color: #e2e8f0;
+  margin-bottom: 10px;
+}
+
+.reglas ul {
+  padding-left: 20px;
+  font-size: 0.85rem;
+  color: #a0aec0;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #718096;
+  margin-bottom: 20px;
+}

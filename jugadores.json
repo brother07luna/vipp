@@ -2,7 +2,7 @@
   "_comentario_1": "--- CONFIGURACIÓN GENERAL DEL TORNEO ---",
   "fechaInicio": "24/08/2026",
   "fechaFin": "2026-08-30T23:59:59",
-  "ultimaActualizacion": "28/08/2026 03:20",
+  "ultimaActualizacion": "29/08/2026 03:20",
   "videoFondo": "gifs/2.mp4",
   "jugadores": [
     { "usuario": "mari", "nota": "mari3881", "cargas": 81000 },

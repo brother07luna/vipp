@@ -5,6 +5,7 @@
   "ultimaActualizacion": "28/09/2026 6:10",
   "videoFondo": "gifs/2.mp4",
   "jugadores": [
+    { "usuario": "m.didi", "nota": "m.didi18", "cargas": 0 },
     { "usuario": "hgise", "nota": "hgise5596", "cargas": 0 },
     { "usuario": "jesy", "nota": "jesi4541", "cargas": 0 },
     { "usuario": "dalila", "nota": "e.dalila02", "cargas": 0 },
